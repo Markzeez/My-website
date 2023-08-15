@@ -1,0 +1,122 @@
+body{
+    background: url(download.jpeg);
+    height: 100vh;
+    text-align: center;
+    background-size: cover;
+}
+.clock{
+    background-color: #fff;
+    width: 500px; 
+    height: 500px;
+    margin-left: 30%;
+    margin-top: 50px;
+    border-radius: 150%;
+    border: 10px solid black;
+}
+span{
+    font-size: 50px;
+    position: absolute;
+}
+.one{
+    padding-left: 110px;
+    padding-top: 25px;
+    /* border: 1px solid black; */
+}
+.two{
+    padding-left: 180px;
+    padding-top: 105px;
+    /* border: 1px solid black; */
+}
+.three{
+    padding-left: 220px;
+    padding-top: 215px;
+    /* border: 1px solid black; */
+}
+.four{
+    padding-left: 180px;
+    padding-top: 335px;
+    /* border: 1px solid black; */
+}
+.five{
+    padding-left: 110px;
+    padding-top: 410px;
+    /* border: 1px solid black; */
+}
+.six{
+    /* border: 1px solid black; */
+    padding-top: 445px;
+    margin-left: -14px;
+}
+.seven{
+    /* border: 1px solid black; */
+    margin-left: -135px;
+    padding-top: 410px;
+}
+.eight{
+    margin-left: -214px;
+    padding-top: 335px;
+    /* border: 1px solid black; */
+}
+.nine{
+    margin-left: -246px;
+    padding-top: 220px;
+    /* border: 1px solid black; */
+}
+.ten{
+    margin-left: -218px;
+    padding-top: 105px;
+    /* border: 1px solid black; */
+}
+.eleven{
+    margin-left: -140px;
+    padding-top: 25px;
+    /* border: 1px solid black; */
+}
+.twelve{
+    /* border: 1px solid black; */
+    margin-left: -28px;
+}
+.dots {
+    position: relative;
+    margin-top: -276px;
+    margin-left: 82px;
+}
+.icon i{
+    font-size: 50px;
+
+}
+.material-icons {
+    padding-right: 100px; 
+}
+.hour,.minute,.second {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform-origin: 50% 100%;
+    transform: translate(-50%, -100%);
+    background-color: #333;
+} 
+.hour {
+    width: 5px;
+    height: 120px;
+    margin-top: -98px;
+    margin-left: -12px;
+}
+  
+.minute {
+    width: 3px;
+    height: 180px;
+    margin-top: -155px;
+    margin-left: -14px;
+}
+  
+.second {
+    width: 2px;
+    height: 220px;
+    margin-top: -194px;
+    margin-left: -10px;
+    background-color: red;
+}
+h3{
+    color: brown;
+}
